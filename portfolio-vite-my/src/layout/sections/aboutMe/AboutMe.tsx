@@ -30,7 +30,7 @@ const AvaStyled=styled.img`
    object-position: bottom ;
 `
 const AboutMeStyled=styled.div`
-    padding-top: 70px;
+    padding-top: 40px;
 
 `
 const TitleH2AboutStyled=styled.h2`

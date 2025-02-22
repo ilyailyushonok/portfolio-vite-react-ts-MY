@@ -1,25 +1,68 @@
-import styled from "styled-components";
+import styled, {WebTarget} from "styled-components";
 import {theme} from "../../styles/theme.ts";
+import {Link} from "react-scroll";
 
 export const NavStyled=styled.nav`
     max-width: 610px;
     width: 100%;
 `
-type menuPropsType = {
-items: Array<string>
-}
-export const MenuContent = (props:menuPropsType) => {
+// type menuPropsType = {
+// items: Array<string>
+// }
+
+const itemsScroll=[
+
+    {
+        title:'About me',
+        href:'aboutMe'
+    },
+    {
+        title:'Tech Stack',
+        href:'techStack'
+    },
+    {
+        title:'Projects',
+        href:'projects'
+    },
+    {
+        title:'Contacts',
+        href:'mailMe'
+    }
+]
+
+
+export const MenuContent = () => {
     return (
         <NavStyled>
             <MenuStyled>
-                {props.items.map((item,i) => {
-                 return(   <MenuItem key={i}>{item}</MenuItem>
+                {itemsScroll.map((item) => {
+                    return(   <ItemLink offset={-70} activeClass={'active'} spy={true} to={item.href} smooth={true}><MenuItem key={item.href}>{item.title}</MenuItem></ItemLink>
                  )
                 })}
             </MenuStyled>
         </NavStyled>
     )
 }
+export const ItemLink=styled(Link as WebTarget)`
+    color: ${theme.colorFont};
+
+    &:hover,&.active{
+        color: ${theme.primaryColor};
+        cursor: pointer;
+    }
+    &+li{
+        padding-left: 10px;
+    }
+    a{
+         font-family: ${theme.secondaryFont};
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.3;
+        text-align: center;
+        color: ${theme.colorFont} ;
+        white-space: nowrap;
+    }
+`
 
 export const MenuStyled=styled.ul<{gap?:string,justify?:string}>`
     display: flex;
@@ -29,21 +72,7 @@ export const MenuStyled=styled.ul<{gap?:string,justify?:string}>`
     gap:${({gap})=>gap||"10px"};
 `
 export const MenuItem=styled.li`
-    color: ${theme.colorFont};
-    &:hover{
-        color: ${theme.primaryColor};
-        cursor: pointer;
-    }
-    &+li{
-        padding-left: 10px;
-    }
     a{
-        font-family: ${theme.secondaryFont};
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.3;
-        text-align: center;
         color: ${theme.colorFont} ;
-        white-space: nowrap;
     }
 `

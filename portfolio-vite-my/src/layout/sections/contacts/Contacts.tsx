@@ -11,7 +11,7 @@ export const Contacts: React.FC = () => {
         <Container>
             <FlexWrapper justify="space-between" align={"center"}>
                 <Icon iconId={'logo'} height={'50px'} width={'50px'} viewBox={'0 0 50px 50px'}/>
-                <ContactsStyled>
+                <ContactsStyled >
                     <a href="tel:+91 12345 09876" className={'telAndMail'}>+375-44-777-77-77</a>
                     <a href="mailto:info@example.com" className={'telAndMail'}>MyImail777777777777777.com</a>
                     <MenuStyled >

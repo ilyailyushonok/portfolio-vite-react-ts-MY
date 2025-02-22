@@ -9,7 +9,7 @@ export const MailMe = () => {
     return (
         <Container>
             <FlexWrapper direction="column" align={"center"} justify="center">
-                <MailDescStyled>For any questions please mail me:</MailDescStyled>
+                <MailDescStyled id='mailMe' >For any questions please mail me:</MailDescStyled>
                 <a href={"mailto:ilyushonok2014@mail.ru"} target={'_blank'}><Icon iconId={'mailMe'} fill={theme.primaryColor}/></a>
             </FlexWrapper>
         </Container>

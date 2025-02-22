@@ -14,7 +14,7 @@ export const Projects = () => {
     return (
         <Container>
             <FlexWrapper direction="column" align="center">
-                <ProjectsTitleStyled>Projects</ProjectsTitleStyled>
+                <ProjectsTitleStyled id={'projects'}>Projects</ProjectsTitleStyled>
                 <ProjectsDescStyled>Things I’ve built so far</ProjectsDescStyled>
                 <GridWrapperStyled>
                     <GridItem idProject={Rectangle22}/>

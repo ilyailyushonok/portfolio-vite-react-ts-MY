@@ -11,7 +11,7 @@ export const TechStack = () => {
     return (
         <Container>
             <FlexWrapper direction="column" align="center">
-                <TechTitleStyled>My Tech Stack</TechTitleStyled>
+                <TechTitleStyled id={'techStack'}>My Tech Stack</TechTitleStyled>
                 <TechDescriptionStyled>Technologies I’ve been working with recently</TechDescriptionStyled>
                 <TechStackIcons>
                     <Icon iconId={'html'}/>

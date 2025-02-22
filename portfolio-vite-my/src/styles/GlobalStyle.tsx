@@ -19,9 +19,6 @@ export  const GlobalStyle = createGlobalStyle`
         background-color: #191919;
     }
     
-        tel{
-            color: red;
-        }
     
 
     a:hover {

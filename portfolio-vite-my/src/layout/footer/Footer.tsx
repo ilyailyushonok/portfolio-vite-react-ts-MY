@@ -4,7 +4,7 @@ import {MenuContent} from "../../components/navBar/NavBar.tsx";
 import {theme} from "../../styles/theme.ts";
 import styled from "styled-components";
 
-const items=['Home','About','Tech Stack','Projects','Contact']
+// const items=['Home','About','Tech Stack','Projects','Contact']
 
 export const Footer = () => {
     return (
@@ -17,7 +17,7 @@ export const Footer = () => {
                     {/*    <MenuItem><a href="/projects">Projects</a></MenuItem>*/}
                     {/*    <MenuItem><a href="/cotacts">Contact</a></MenuItem>*/}
                     {/*</MenuStyled>*/}
-                <MenuContent items={items}/>
+                <MenuContent />
                 <FooterDescStyled>© 2025 Ilya Ilyushonok, All Rights Reserved.</FooterDescStyled>
             </FlexWrapper>
         </Container>
