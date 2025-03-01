@@ -8,28 +8,39 @@ import {theme} from "../../../styles/theme.ts";
 
 export const Contacts: React.FC = () => {
     return (
+        <StyledContacts>
         <Container>
-            <FlexWrapper justify="space-between" align={"center"}>
-                <Icon iconId={'logo'} height={'50px'} width={'50px'} viewBox={'0 0 50px 50px'}/>
-                <ContactsStyled >
+            <FlexWrapper justify="space-between" align={"center"}  wrap={'wrap'} >
+              <IconWrpperStyled>  <Icon iconId={'logo'} height={'50px'} width={'50px'} viewBox={'0 0 50px 50px'}/></IconWrpperStyled>
+                <ContactsWrap>
                     <a href="tel:+91 12345 09876" className={'telAndMail'}>+375-44-777-77-77</a>
                     <a href="mailto:info@example.com" className={'telAndMail'}>MyImail777777777777777.com</a>
-                    <MenuStyled >
-                        <MenuItem><a href="https://github.com/ilyailyushonok" target={"_blank"}><Icon iconId={"GitHub"} viewBox={"0 0 30 30"} height={"30"} width={"30"}/></a></MenuItem>
+                        <MenuStyled >
+                        <MenuItem><a href="/" target={"_blank"}><Icon iconId={"GitHub"} viewBox={"0 0 30 30"} height={"30"} width={"30"}/></a></MenuItem>
                         <MenuItem><a href="/" target={"_blank"}><Icon iconId={"Telegram"} viewBox={"0 0 30 30"} height={"30"} width={"30"}/></a></MenuItem>
-                        <MenuItem><a href="/" target={"_blank"}><Icon iconId={"Linkedin"} viewBox={"0 0 30 30"} height={"30"} width={"30"} /></a></MenuItem>
+                        <MenuItem><a href="https://github.com/ilyailyushonok" target={"_blank"}><Icon iconId={"Linkedin"} viewBox={"0 0 30 30"} height={"30"} width={"30"} /></a></MenuItem>
                     </MenuStyled>
-                </ContactsStyled>
+                </ContactsWrap>
             </FlexWrapper>
         </Container>
+        </StyledContacts>
+
     )
 }
 
-const ContactsStyled=styled.div`
-display: flex;
+const StyledContacts = styled.section``
+
+const ContactsWrap=styled.div`
+    display: flex;
     align-items: center;
-    gap:35px;
+
+    gap:40px;
     .telAndMail{
             color: ${theme.primaryColor};
+
     }
+  
+`
+const IconWrpperStyled=styled.div`
+
 `

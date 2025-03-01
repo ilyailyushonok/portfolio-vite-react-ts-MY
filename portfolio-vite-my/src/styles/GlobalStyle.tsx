@@ -10,13 +10,15 @@ export  const GlobalStyle = createGlobalStyle`
         list-style: none;
         text-decoration: none;
         line-height: 1.2;
-    }
-
-    body {
-        font-family: "Poppins", sans-serif;
+        border: none;
         margin: 0;
         padding: 0;
+    }
+
+   html, body {
+        font-family: "Poppins", sans-serif;
         background-color: #191919;
+       min-width: 360px;
     }
     
     

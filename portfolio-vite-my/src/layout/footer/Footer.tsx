@@ -8,6 +8,7 @@ import styled from "styled-components";
 
 export const Footer = () => {
     return (
+        <FooterStyled>
         <Container>
             <FlexWrapper justify="space-between" align="center">
                     {/*<MenuStyled justify={"space-between"}>*/}
@@ -21,8 +22,15 @@ export const Footer = () => {
                 <FooterDescStyled>© 2025 Ilya Ilyushonok, All Rights Reserved.</FooterDescStyled>
             </FlexWrapper>
         </Container>
+        </FooterStyled>
     )
 }
+
+const FooterStyled=styled.footer`
+
+`
+
 const FooterDescStyled=styled.p`
     color: ${theme.colorFont};
+    margin: 0 auto;
 `

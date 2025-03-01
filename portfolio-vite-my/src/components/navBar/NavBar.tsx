@@ -2,13 +2,7 @@ import styled, {WebTarget} from "styled-components";
 import {theme} from "../../styles/theme.ts";
 import {Link} from "react-scroll";
 
-export const NavStyled=styled.nav`
-    max-width: 610px;
-    width: 100%;
-`
-// type menuPropsType = {
-// items: Array<string>
-// }
+
 
 const itemsScroll=[
 
@@ -31,18 +25,39 @@ const itemsScroll=[
 ]
 
 
-export const MenuContent = () => {
+export const MenuContent = (props:{href?:string}) => {
     return (
         <NavStyled>
             <MenuStyled>
                 {itemsScroll.map((item) => {
-                    return(   <ItemLink offset={-70} activeClass={'active'} spy={true} to={item.href} smooth={true}><MenuItem key={item.href}>{item.title}</MenuItem></ItemLink>
+                    return(   <ItemLink offset={-70} activeClass={'active'} spy={true} to={props.href||item.href} smooth={true}><MenuItem key={item.href}>{item.title}</MenuItem></ItemLink>
                  )
                 })}
             </MenuStyled>
         </NavStyled>
     )
 }
+
+export const NavStyled=styled.nav`
+    max-width: 610px;
+    width: 100%;
+    @media ${theme.mediaTablet} {
+        display: none;
+    }
+`
+
+export const MenuStyled=styled.ul<{gap?:string,justify?:string,display?:string,wrap?:string}>`
+    display: flex;
+    justify-content:${({justify})=>justify|| "stretch"}; 
+    align-items: center;
+    flex-wrap:${({wrap})=>wrap||"nowrap"};
+    gap:${({gap})=>gap||"10px"};
+    @media ${theme.mediaTablet} {
+        display: ${({display})=>display||'none'};
+    }
+    padding: 0;
+`
+
 export const ItemLink=styled(Link as WebTarget)`
     color: ${theme.colorFont};
 
@@ -64,13 +79,7 @@ export const ItemLink=styled(Link as WebTarget)`
     }
 `
 
-export const MenuStyled=styled.ul<{gap?:string,justify?:string}>`
-    display: flex;
-    justify-content:${({justify})=>justify|| "stretch"}; 
-    align-items: center;
-    width: inherit;
-    gap:${({gap})=>gap||"10px"};
-`
+
 export const MenuItem=styled.li`
     a{
         color: ${theme.colorFont} ;

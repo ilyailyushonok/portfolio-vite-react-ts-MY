@@ -25,8 +25,10 @@ const ItemWrapper=styled.div`
 
 `
 const GridTitleStyled=styled.h3`
-color: ${theme.colorFont};
+    margin: 20px 0;
+    color: ${theme.colorFont};
 `
 const GridDescStyled=styled.p`
-color: ${theme.colorFont};
+    color: ${theme.colorFont};
+    padding: 0 10px 20px;
 `

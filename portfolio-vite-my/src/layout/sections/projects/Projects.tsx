@@ -12,6 +12,7 @@ import {theme} from "../../../styles/theme.ts";
 
 export const Projects = () => {
     return (
+        <ProjectsStyled>
         <Container>
             <FlexWrapper direction="column" align="center">
                 <ProjectsTitleStyled id={'projects'}>Projects</ProjectsTitleStyled>
@@ -26,14 +27,22 @@ export const Projects = () => {
                 </GridWrapperStyled>
             </FlexWrapper>
         </Container>
+        </ProjectsStyled>
     )
 }
 
+const ProjectsStyled=styled.section`
+
+`
+
 const GridWrapperStyled=styled.div`
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-auto-rows:1fr 1fr ;
+    grid-template-columns:repeat(auto-fit,minmax(300px,auto));
     gap:30px;
+    @media ${theme.mediaTablet} {
+        grid-template-columns:repeat(auto-fit,minmax(175px,auto));
+    }
+   
 `
 const ProjectsTitleStyled=styled.h2`
 color: ${theme.colorFont};

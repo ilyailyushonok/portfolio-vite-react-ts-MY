@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbbcace-cf05-4084-abf4-63bb6691701e" name="Changes" comment="repo test2">
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my" afterDir="false" />
+    <list default="true" id="6dbbcace-cf05-4084-abf4-63bb6691701e" name="Changes" comment="navigation and react-scroll">
+      <change afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/MenuMobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/assets/icons-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/assets/icons-sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/FlexWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/FlexWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/gridItem/GridItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/gridItem/GridItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/aboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/aboutMe/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/mailMe/MailMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/mailMe/MailMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/techStack/TechStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/techStack/TechStack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/styles/GlobalStyle.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/portfolio-vite-my" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -31,7 +46,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sad8487/portfolio-start-project-vite.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/ilyailyushonok/portfolio-vite-react-ts-MY.git&quot;,
     &quot;accountId&quot;: &quot;6bd4bb1d-6733-46a8-87c0-67661cebb43d&quot;
   }
 }</component>
@@ -50,6 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ilyushonok/Programming/Script/it-incubator-student/portfolio_2/portfolio-vite-my/src/components/navBar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,6 +78,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/portfolio-vite-my/src/assets" />
       <recent name="$PROJECT_DIR$/portfolio-vite-my/src/layout" />
@@ -108,6 +127,11 @@
       <workItem from="1740172350765" duration="10344000" />
       <workItem from="1740223831888" duration="3822000" />
       <workItem from="1740227755107" duration="207000" />
+      <workItem from="1740227965370" duration="24864000" />
+      <workItem from="1740332513217" duration="1561000" />
+      <workItem from="1740505017104" duration="2896000" />
+      <workItem from="1740683769738" duration="1670000" />
+      <workItem from="1740685458102" duration="15146000" />
     </task>
     <task id="LOCAL-00001" summary="repo test">
       <option name="closed" value="true" />
@@ -117,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740227075556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="navigation and react-scroll">
+      <option name="closed" value="true" />
+      <created>1740237482512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237482512</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="repo test" />
     <MESSAGE value="repo test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="repo test2" />
+    <MESSAGE value="navigation and react-scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation and react-scroll" />
   </component>
 </project>
