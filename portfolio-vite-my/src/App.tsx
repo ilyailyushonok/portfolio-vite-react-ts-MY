@@ -11,6 +11,7 @@ function App() {
     return (
 
         <div>
+            <div></div>
             <Header/>
             <AboutMe/>
             <TechStack/>
