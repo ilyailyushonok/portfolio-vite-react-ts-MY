@@ -53,8 +53,8 @@ export const MenuStyled=styled.ul<{gap?:string,justify?:string,display?:string,w
     flex-wrap:${({wrap})=>wrap||"nowrap"};
     gap:${({gap})=>gap||"10px"};
     @media ${theme.mediaTablet} {
-        display: ${({display})=>display||'none'};
-    }
+        gap:${({gap})=>gap||"35px"};
+        display: ${({display})=>display||"none"};
     padding: 0;
 `
 
@@ -84,4 +84,5 @@ export const MenuItem=styled.li`
     a{
         color: ${theme.colorFont} ;
     }
+   
 `

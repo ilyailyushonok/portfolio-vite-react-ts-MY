@@ -54,6 +54,7 @@ export const MenuMobile = () => {
 
 const BurgerButton = styled.button<{ isOpen: boolean }>`
     position: relative;
+    display: none;
     width: 70px;
     height: 70px;
     background-color: rgba(255, 255, 255, 0);

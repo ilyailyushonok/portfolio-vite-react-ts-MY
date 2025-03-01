@@ -19,7 +19,7 @@ export const Footer = () => {
                     {/*    <MenuItem><a href="/cotacts">Contact</a></MenuItem>*/}
                     {/*</MenuStyled>*/}
                 <MenuContent />
-                <FooterDescStyled>© 2025 Ilya Ilyushonok, All Rights Reserved.</FooterDescStyled>
+                <FooterDescStyled>© 2023 Ilya Ilyushonok, All Rights Reserved.</FooterDescStyled>
             </FlexWrapper>
         </Container>
         </FooterStyled>

@@ -15,7 +15,7 @@ export const Contacts: React.FC = () => {
                 <ContactsWrap>
                     <a href="tel:+91 12345 09876" className={'telAndMail'}>+375-44-777-77-77</a>
                     <a href="mailto:info@example.com" className={'telAndMail'}>MyImail777777777777777.com</a>
-                        <MenuStyled >
+                        <MenuStyled display={'flex'} wrap={'wrap'} >
                         <MenuItem><a href="/" target={"_blank"}><Icon iconId={"GitHub"} viewBox={"0 0 30 30"} height={"30"} width={"30"}/></a></MenuItem>
                         <MenuItem><a href="/" target={"_blank"}><Icon iconId={"Telegram"} viewBox={"0 0 30 30"} height={"30"} width={"30"}/></a></MenuItem>
                         <MenuItem><a href="https://github.com/ilyailyushonok" target={"_blank"}><Icon iconId={"Linkedin"} viewBox={"0 0 30 30"} height={"30"} width={"30"} /></a></MenuItem>
@@ -33,8 +33,9 @@ const StyledContacts = styled.section``
 const ContactsWrap=styled.div`
     display: flex;
     align-items: center;
-
-    gap:40px;
+    justify-content: center;
+flex-wrap: wrap;
+    gap:60px;
     .telAndMail{
             color: ${theme.primaryColor};
 

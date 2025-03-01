@@ -41,7 +41,7 @@ const TechStackStyled=styled.section`
 const TechStackIcons=styled.div`
     display: grid;
     width: 100%;
-    grid-template-columns:repeat(auto-fit,minmax(170px, auto));
+    grid-template-columns:repeat(auto-fit,minmax(165px, auto));
     row-gap :77px;
    justify-content: space-between;
     justify-items: center;

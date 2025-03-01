@@ -16,12 +16,9 @@ export const Header = () => (
                 <Icon iconId={'logo'} width={'50px'} height={'50px'} viewBox={'0 0 50 50'}/>
                 <MenuMobile/>
                 <MenuContent/>
-                <MenuStyled>
-                    <MenuItem><a href='#' target={"_blank"}><Icon iconId={"GitHub"}
-                                                                                                  viewBox={"0 0 30 30"}
-                                                                                                  height={"30"}
-                                                                                                  width={"30"}
-                    /></a></MenuItem>
+                <MenuStyled >
+                    <MenuItem><a href='#' target={"_blank"}><Icon iconId={"GitHub"} viewBox={"0 0 30 30"}
+                                                                  height={"30"} width={"30"}/></a></MenuItem>
                     <MenuItem><a href="/" target={"_blank"}><Icon iconId={"Telegram"} viewBox={"0 0 30 30"}
                                                                   height={"30"} width={"30"}/></a></MenuItem>
                     <MenuItem><a href="https://github.com/ilyailyushonok" target={"_blank"}><Icon iconId={"Linkedin"} viewBox={"0 0 30 30"}

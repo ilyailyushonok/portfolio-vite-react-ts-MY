@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbbcace-cf05-4084-abf4-63bb6691701e" name="Changes" comment="navigation and react-scroll">
-      <change afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/MenuMobile.tsx" afterDir="false" />
+    <list default="true" id="6dbbcace-cf05-4084-abf4-63bb6691701e" name="Changes" comment="add feedback form">
+      <change afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/goTop/GoTopBtn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/assets/icons-sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/assets/icons-sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/Container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/FlexWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/FlexWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/gridItem/GridItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/gridItem/GridItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/MenuMobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/MenuMobile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/components/navBar/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/aboutMe/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/aboutMe/AboutMe.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/mailMe/MailMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/mailMe/MailMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/techStack/TechStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/layout/sections/techStack/TechStack.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-vite-my/src/styles/GlobalStyle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-vite-my/src/styles/GlobalStyle.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +126,8 @@
       <workItem from="1740332513217" duration="1561000" />
       <workItem from="1740505017104" duration="2896000" />
       <workItem from="1740683769738" duration="1670000" />
-      <workItem from="1740685458102" duration="15146000" />
+      <workItem from="1740685458102" duration="15844000" />
+      <workItem from="1740825734678" duration="5715000" />
     </task>
     <task id="LOCAL-00001" summary="repo test">
       <option name="closed" value="true" />
@@ -149,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740237482512</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add feedback form">
+      <option name="closed" value="true" />
+      <created>1740824922351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824922351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +174,7 @@
     <MESSAGE value="repo test" />
     <MESSAGE value="repo test2" />
     <MESSAGE value="navigation and react-scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="navigation and react-scroll" />
+    <MESSAGE value="add feedback form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feedback form" />
   </component>
 </project>

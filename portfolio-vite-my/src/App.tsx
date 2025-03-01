@@ -5,6 +5,7 @@ import {Projects} from "./layout/sections/projects/Projects.tsx";
 import {MailMe} from "./layout/sections/mailMe/MailMe.tsx";
 import {Contacts} from "./layout/sections/contacts/Contacts.tsx";
 import {Footer} from "./layout/footer/Footer.tsx";
+import {GoTopBtn} from "./components/goTop/GoTopBtn.tsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <MailMe/>
             <Contacts/>
             <Footer/>
+            <GoTopBtn/>
         </div>
     );
 }

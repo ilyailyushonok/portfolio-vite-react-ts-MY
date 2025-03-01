@@ -12,8 +12,8 @@ export const MailMe = () => {
                 <MailDescStyled id='mailMe' >For any questions please right me:</MailDescStyled>
               <FormStyled>
                   <InputStyled placeholder={'Your name'}/>
-                  <InputStyled  placeholder={'Your email'}/>
-                  <TextAreaStyled placeholder={'Message'}/>
+                  <InputStyled  placeholder={'Your e-mail'}/>
+                  <InputStyled placeholder={'Message'} as={'textarea'}/>
               </FormStyled>
             </FlexWrapper>
         </Container>
@@ -34,6 +34,11 @@ const MailDescStyled=styled.p`
      gap: 22px;
      max-width: 500px;
      width: 100%;
+     textarea{
+         min-height: 150px;
+         resize: none;
+         padding: 7px;
+     }
  `
 const InputStyled=styled.input`
     background-color: #27282b;
@@ -45,16 +50,5 @@ const InputStyled=styled.input`
     padding: 5px;
 
 `
-const TextAreaStyled=styled.textarea`
-    background-color: #27282b;
-    color: ${theme.colorFont};
-    font-family: ${theme.secondaryFont};
-    font-size: 14px;
-    width: 100%;
-    min-height: 150px;
-    outline: 1px solid ${theme.primaryColor};
-    resize: none;
-    padding: 7px;
 
-`
 
